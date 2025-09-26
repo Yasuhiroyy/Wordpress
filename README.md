@@ -234,8 +234,6 @@ pid-file = /var/run/mysqld/mysqld.pid
 - **意味**：**Unixドメインソケット**のパス（MySQLクライアントとサーバー間の通信に使う）。
 - **目的**：ローカル通信をTCP/IPではなく、ソケットファイル経由で高速・安全に行う。
 
-[通信相手はwp-config.php](https://www.notion.so/wp-config-php-25f1c69de843808ca38cf56b2aff8381?pvs=21)
-
 ---
 
 ### `log-error = /var/log/mysql/error.log`
